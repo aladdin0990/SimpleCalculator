@@ -12,12 +12,12 @@
 
     <distributionManagement>
         <repository>
-            <id>releases</id>
+            <id>nexus-releases</id>
             <url>http://localhost:8089/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>maven-hello-world</id>
-            <url>http://localhost:8089/nexus/content/repositories/maven-hello-world</url>
+            <id>simple-calculator</id>
+            <url>http://localhost:8089/nexus/content/repositories/simple-calculator/</url>
         </snapshotRepository>
     </distributionManagement>
 
