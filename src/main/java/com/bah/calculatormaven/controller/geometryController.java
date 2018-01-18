@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import com.bah.calculatormaven.model.geometryCalculator;
+import java.util.logging.Logger;
 
 /**
  *
@@ -20,6 +21,8 @@ import com.bah.calculatormaven.model.geometryCalculator;
  */
 @WebServlet(name = "geometryCalculator", urlPatterns = {"/geometryCalculator"})
 public class geometryController extends HttpServlet {
+
+    private static Logger logger = Logger.getLogger("geometryController.class");
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -86,7 +89,7 @@ public class geometryController extends HttpServlet {
             request.setAttribute(HYPOTENUSE,hypotenuse);
            
             }
-            System.out.println("Hello");
+            logger.info("Hello Bhavik Patel");
             
         }catch(Exception e){
             request.setAttribute(errMsgLocation, e.getMessage());
