@@ -12,12 +12,12 @@
 
     <distributionManagement>
         <repository>
-            <id>releases</id>
+            <id>nexus-releases</id>
             <url>http://localhost:8089/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>maven-hello-world</id>
-            <url>http://localhost:8089/nexus/content/repositories/maven-hello-world</url>
+            <id>maven-calculator</id>
+            <url>http://localhost:8089/nexus/content/repositories/maven-calculator/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -37,7 +37,7 @@
         <sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
         <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
