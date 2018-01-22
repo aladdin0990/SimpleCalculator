@@ -13,11 +13,11 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
-            <url>http://localhost:8089/nexus/content/repositories/releases</url>
+            <url>http://10.4.254.118:8089/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>maven-calculator</id>
-            <url>http://localhost:8089/nexus/content/repositories/maven-calculator/</url>
+            <url>http://10.4.254.118:8089/nexus/content/repositories/maven-calculator/</url>
         </snapshotRepository>
     </distributionManagement>
 
