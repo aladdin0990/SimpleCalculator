@@ -5,7 +5,7 @@
 
     <groupId>com.bah</groupId>
     <artifactId>Calculator-Maven</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <version>1.5-SNAPSHOT</version>
     <name>Maven Web Project</name>
     <description>Maven java Project for Java</description>
