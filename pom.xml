@@ -112,7 +112,7 @@
 
     <profiles>
         <profile>
-            <id>sonar-coverage</id>
+            <id>sonar</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
