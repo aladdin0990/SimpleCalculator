@@ -13,11 +13,11 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
-            <url>http://localhost:8089/nexus/content/repositories/releases/</url>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-calculator</id>
-            <url>http://localhost:8089/nexus/content/repositories/maven-calculator/</url>
+            <url>http://localhost:8081/nexus/content/repositories/maven-calculator/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -119,7 +119,7 @@
         </plugins>
     </build>
 
-    <!--<profiles>
+    <profiles>
         <profile>
             <id>sonar</id>
             <activation>
@@ -167,5 +167,5 @@
                 </plugins>
             </build>
         </profile>
-    </profiles>-->
+    </profiles>
 </project>
